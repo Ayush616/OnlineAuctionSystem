@@ -1,0 +1,37 @@
+
+.body-contain{
+    background-color: #F8FAFB;
+}
+.bid .price{
+    font-size: 50px;
+}
+
+.bid .timer{
+    background-color: #FFF1E7;
+    color: #C06A2C;
+    font-size: 30px;
+    /* width: 100%; */
+    border-radius: 5px;
+}
+
+.bid, .seller, .description{
+    background-color: white;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(31 45 65 / 15%);
+
+}
+
+.user-information, .userpic{
+    text-align: center;
+}
+
+.userpic img{
+    border-radius: 50%;
+}
+
+.seller .card-header h3{
+    font-size: 20px;
+}
+
+.description .card-header h3{
+    font-size: 20px;
+}

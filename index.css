@@ -1,0 +1,83 @@
+.banner{
+    /* width: 100%; */
+}
+
+.navbar-brand{
+    font-family: 'Freckle Face', cursive;
+    color: darkorange;
+}
+
+.login{
+    margin-left: auto;
+}
+
+.carousel-caption{
+    top: 40%;
+    font-family: 'Orelega One', cursive;
+    font-size: 20px;
+}
+
+.carousel-inner:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
+  }
+
+  .categories .header{
+    font-family: 'Orelega One', cursive;
+    text-align: center;
+  }
+
+  .catpage .header{
+    font-family: 'Orelega One', cursive;
+    text-align: center;
+    font-size: larger;
+  }
+
+  .categories .card{
+      margin:10px
+  }
+
+  .filters span{
+    /* background-color: darkorange; */
+    padding: 8px 4px 8px 4px;
+    margin: 0px 4px 0px 4px;
+    /* border-radius: 5px; */
+    /* color:white; */
+   
+}
+
+.filters{
+    width: 90%;
+}
+
+.filters span:hover{
+    cursor: pointer; 
+}
+
+.filters div{
+    /* padding: 8px 4px 8px 4px; */
+    border-bottom: 0.5px dotted darkorange;
+    /* display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr)); */
+    
+}
+
+.filters .active{
+    border-bottom: 2px solid darkorange;
+    font-weight: bold;
+    color: darkorange;
+}
+
+.products:hover{
+    box-shadow: 0.1px 0.1px 3px;
+}
+
+/* .body-contain{
+    height: 100vh;
+} */

@@ -1,0 +1,103 @@
+
+.products{
+    width: 80%;
+    background: rgb(245, 237, 237);
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px;
+}
+
+.products .pr-img{
+    /* border: 1px solid grey; */
+    width: 180px;
+}
+
+
+.pr-price{
+    font-size: 10px;
+}
+
+.pr-price .price{
+    font-size: 14px;;
+}
+
+.bid-btn{
+    margin-top: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Freckle Face', cursive;
+    color: darkorange;
+}
+
+.login{
+    margin-left: auto;
+}
+
+.portal-name, .portal-header{
+    /* border: 2px solid blue; */
+}
+
+.portal-header span{
+    /* background-color: darkorange; */
+    padding: 8px 4px 8px 4px;
+    margin: 0px 4px 0px 4px;
+    /* border-radius: 5px; */
+    /* color:white; */
+   
+}
+
+.portal-header div{
+    /* padding: 8px 4px 8px 4px; */
+    border-bottom: 0.5px dotted darkorange;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    
+}
+.portal-header span:hover{
+    border-bottom: 2px solid darkorange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.portal-header .active{
+    border-bottom: 2px solid darkorange;
+    font-weight: bold;
+}
+
+
+.portal-header{
+    padding: 30px 50px 5px 50px;
+}
+
+
+#your-products, #add-product, #transaction-history, #edit-products, #remove-products{
+    /* border: 2px solid red; */
+    padding: 5px 50px 5px 50px;
+}
+
+#add-product form{
+    width: 70%;
+}
+
+#edit-products .plist{
+    width: 70%;
+}
+
+#remove-products .plist{
+    width: 70%;
+}
+
+.modal{
+    color: grey;
+}
+
+#login .modal-body{
+    padding:25px;
+}
+
+
+
+
+
